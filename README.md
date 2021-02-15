@@ -8,5 +8,7 @@ Words in {} are variables. Please do not translate them. The translations have t
 Example English -> Spanish:
 
 "@{USER}'s Buddy: {BUDDY-POKEMON} (lvl {LEVEL}) :eyes: Average IV: {AVERAGE IV}"
+
 ->
+
 "@{USER}'s Amigo: {BUDDY-POKEMON} (Lv. {LEVEL}) :eyes: Promedia IV: {AVERAGE IV}"
