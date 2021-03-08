@@ -1,46 +1,63 @@
-    CANT_REACH_BACKEND = ""
-    CMD_UNKNOWN = ""
-    CMD_UNKNOWN_ERROR = ""
+ 
 
-    TWITCH_ID_MISSING = ""
 
-    NO_TRAINER_PASS = ""
-    ALREADY_OWN_TRAINER_PASS = ""
-    PASS_CREATED = ""
+CANT_REACH_BACKEND = "A connection to the PokéTwitch-Server couldn't be established. Please contact support (https://discord.gg/cT3ThCj)"
+CMD_UNKNOWN = "Este comando no existe. Ingrese! Pokehelp para obtener una lista de todos los comandos."
+CMD_UNKNOWN_ERROR = "
+@ {USER} Ocurrió un error desconocido al ejecutar el comando. "\
+                        "Vuelve a intentarlo en unos segundos"."
 
-    USER_BALANCE = ""
-    TRAINER_BUDDY = ""
-    TRAINER_NO_BUDDY = ""
-    TRAINER_DEX_UNKNOWN = ""
-    TRAINER_DEX_DATA = ""
-    ITEM_LIST = ""
-    HELP = ""
-    NO_MONEY = ""
-    POKEDAILY = ""
+TWITCH_ID_MISSING = "¡Twitch nos envía datos incompletos! Por favor, inténtelo de nuevo más tarde."
 
-    POKECHECK = ""
-    POKECHECK_ERROR = ""
+NO_TRAINER_PASS = "@ {USER} Aún no tienes un pase de entrenador 🤨 ¡Ingresa! Pokestart para obtener tu Pokémon inicial. 😏"
+ALREADY_OWN_TRAINER_PASS = "@ {USER} Ya tienes un pase."
+PASS_CREATED = "@ {USER} ¡Yaaaayy! ¡Tu viaje comienza ahora! Tu motor de arranque es {STARTER} (Lv {LEVEL})"
 
-    # POKECATCH
-    POKECATCH_ESCAPED = ""
-    POKECATCH_INVALID_BALL = ""
-    POKECATCH_NO_BALL = ""
-    POKECATCH_SPAWN = ""
-    POKECATCH_WINNERS = ""
-    POKECATCH_NO_WINNER = ""
+USER_BALANCE = "Saldo de @ {USER}: $ {BALANCE}"
+TRAINER_BUDDY = "Amigo de @ {USER}: {BUDDY-POKEMON} (lvl {LEVEL}) 👀 Promedio IV: {PROMEDIO IV}"
+TRAINER_NO_BUDDY = "@ {USER} Aún no has seleccionado un amigo. ¡Haz clic derecho en un Pokémon en la extensión para seleccionar tu amigo!"
+TRAINER_DEX_UNKNOWN = ""@ {USER} Este dex no existe. Elija una generación o un tipo."
+TRAINER_DEX_DATA = "@ {USER} {DEX-TYPE}: {CANTIDAD CAPTURADA} / {CANTIDAD DE TODOS LOS POKEMON} ({FINALIZACIÓN EN%}%)"
+ITEM_LIST = "@ {USER} Tus artículos: {ITEMS}"
+HELP = "Todos los comandos: https://docs.google.com/document/d/1OJP3uiBLQafNOKGibGNiepldoMmxe9F9Wj6EZFaxgGA/edit?usp=sharing"
+NO_MONEY = "@ {USER} No tienes suficientes Poké-Dollars para hacer esto."
+POKEDAILY = "Visite nuestro Discord para reclamar emocionantes recompensas todos los días: https://discord.gg/cT3ThCj"
 
-    # SHOP
-    SHOP_NO_ITEM = ""
-    SHOP_NEGATIVE_QUANTITY = ""
-    SHOP_QUANTITY_LIMIT = ""
-    SHOP_NOT_FOR_SALE = ""
-    SHOP_NO_MONEY = ""
-    SHOP_SUCCESS = ""
+POKECHECK = "@ {USUARIO} {POKEMON} atrapado/atrapada: {VERDADERO / FALSO}"
+POKECHECK_ERROR = "@ {USER} Elige un Pokémon o Pokédex-ID válido."
 
-    # RAIDS
-    RAIDS_NO_RAID = ""
-    RAIDS_NEXT_GOAL = ""
-    RAIDS_REACHED_FINAL_GOAL = ""
-    RAIDS_REACHED_GOAL = ""
-    RAIDS_CAUGHT = ""
-    RAIDS_MINIMUM_1000 = ""
+# POKECATCH
+POKECATCH_ESCAPED = "@ {USER} ¡Vaya, el Pokémon ya se escapó!"
+POKECATCH_INVALID_BALL = "@ {USER} Este tipo de pelota no existe :( (poke ball / great ball / ultra ball / master ball)"
+POKECATCH_NO_BALL = "@ {USER} No eres dueño de esa pelota. Ingresa! Pokebag para ver tus artículos."
+POKECATCH_SPAWN = "TwitchLit Aparece un {POKEMON} salvaje TwitchLit ¡Cógelo usando! Pokecatch (los ganadores se revelan en los 90)"
+POKECATCH_WINNERS = "{POKEMON} ha sido capturado por: {POKECATCH WINNERS}"
+POKECATCH_NO_WINNER = "{POKEMON} escapó. Nadie lo atrapó."
+
+# SHOP
+SHOP_NO_ITEM = "@ {USER} Por favor, especifique el artículo que desea comprar:! Pokeshop <nombre del artículo> <cantidad>"
+SHOP_NEGATIVE_QUANTITY = "@ {USER} Debes comprar al menos un artículo."
+SHOP_QUANTITY_LIMIT = "@ {USER} No puedes comprar más de 100 artículos a la vez.@ {USER} No puedes comprar ese artículo."
+SHOP_NOT_FOR_SALE = "@ {USER} No puedes comprar ese artículo."
+SHOP_NO_MONEY = "@ {USER} No tienes suficientes Poké-Dollars. Necesitas: $ {PRICE}"
+SHOP_SUCCESS = "@ {USER} ¡Compra exitosa!"
+
+# RAIDS
+RAIDS_NO_RAID = "@ {USER} No hay una redada activa en este momento."
+RAIDS_NEXT_GOAL = "Próximo objetivo"
+RAIDS_REACHED_FINAL_GOAL = "Objetivo final alcanzado ✅"
+RAIDS_REACHED_GOAL = "Objetivo alcanzado ✅ Actualizaciones disponibles:"
+RAIDS_CAUGHT = "Atrapado/Atrapada"
+RAIDS_MINIMUM_1000 = "@ {USER} Debes donar al menos $ 1000 para unirte a la redada."
+
+
+
+
+
+
+
+
+
+
+
+
