@@ -1,7 +1,0 @@
-attack: "attack",
-specialAttack: "special attack",
-defense: "defense",
-specialDefense: "special defense",
-speed: "speed",
-accuracy: "accuracy",
-evasion: "evasion"

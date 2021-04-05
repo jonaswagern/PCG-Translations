@@ -1,0 +1,47 @@
+    CANT_REACH_BACKEND = "La connexion au serveur PokéTwitch n'a pas pu être établie. Veuillez contacter le support ! (https://discord.gg/cT3ThCj)"
+    CMD_UNKNOWN = "@{USER} Cette commande n'existe pas. Tapez !pokehelp pour voir la liste de toutes les commandes."
+    CMD_UNKNOWN_ERROR = "@{USER} Une erreur inconnue s'est produite lors de l'exécution de la commande. " \
+                        "Veuillez réessayer dans quelques secondes."
+
+    TWITCH_ID_MISSING = "Twitch nous envoie des données incomplètes ! Veuillez réessayer plus tard."
+
+    NO_TRAINER_PASS = "@{USER} Vous n'avez pas encore votre passe de dresseur 🤨 Tapez !pokestart pour obtenir votre Pokémon de départ. 😏"
+    ALREADY_OWN_TRAINER_PASS = "@{USER} Vous avez déjà un passe de dresseur."
+    PASS_CREATED = "@{USER} Yaaaayy ! Votre voyage commence maintenant ! Votre Pokémon de départ est {STARTER} (Lv {LEVEL})."
+
+    USER_BALANCE = "@{USER} ta solde est de : {BALANCE}$"
+    TRAINER_BUDDY = "@{USER} ton copain est : {BUDDY-POKEMON} (lvl {LEVEL}) 👀 Moyenne IV: {AVERAGE IV}."
+    TRAINER_NO_BUDDY = "@{USER} Vous n'avez pas encore sélectionné de copain. Faites un clic droit sur un Pokémon dans l'extension pour sélectionner votre copain !"
+    TRAINER_DEX_UNKNOWN = "@{USER} Ce dex n'existe pas. Veuillez choisir une génération ou un type."
+    TRAINER_DEX_DATA = "@{USER} {DEX-TYPE} : {AMOUNT CAUGHT} / {AMOUNT ALL POKEMON} ({COMPLETION IN%}%)"
+    ITEM_LIST = "@{USER} Vos objets : {ITEMS}"
+    HELP = "Toutes les commandes ici : https://docs.google.com/document/d/1OJP3uiBLQafNOKGibGNiepldoMmxe9F9Wj6EZFaxgGA/edit?usp=sharing"
+    NO_MONEY = "@{USER} Vous n'avez pas assez de Poké-Dollars pour faire ça."
+    POKEDAILY = "Visitez notre Discord pour récupérer des récompenses tous les jours : https://discord.gg/cT3ThCj"
+
+    POKECHECK = "@{USER} {POKEMON} attrapé : {TRUE / FALSE}"
+    POKECHECK_ERROR = "@{USER} Veuillez choisir un Pokémon ou un ID-Pokédex valide."
+
+    # POKECATCH
+    POKECATCH_ESCAPED = "@{USER} Oups, le Pokémon s'est déjà échappé !"
+    POKECATCH_INVALID_BALL = "@{USER} Ce type de ball n'existe pas :( (poke ball / great ball / ultra ball / master ball)."
+    POKECATCH_NO_BALL = "@{USER} Vous ne possédez pas cette ball. Tapez !pokebag pour voir vos objets."
+    POKECATCH_SPAWN = "TwitchLit Un {POKEMON} sauvage apparaît TwitchLit Attrapez-le en tapant !pokecatch (les gagnants seront révélés dans 90 secondes)."
+    POKECATCH_WINNERS = "{POKEMON} a été attrapé par : {POKECATCH WINNERS}"
+    POKECATCH_NO_WINNER = "{POKEMON} s'est échappé. Personne ne l'a attrapé."
+
+    # SHOP
+    SHOP_NO_ITEM = "@{USER} Veuillez spécifier l'article que vous souhaitez acheter : !pokeshop <nom de l'article> <quantité>"
+    SHOP_NEGATIVE_QUANTITY = "@{USER} Vous devez acheter au moins un article."
+    SHOP_QUANTITY_LIMIT = "@{USER} Vous ne pouvez pas acheter plus de 100 articles à la fois."
+    SHOP_NOT_FOR_SALE = "@{USER} Vous ne pouvez pas acheter cet article."
+    SHOP_NO_MONEY = "@{USER} Vous n'avez pas assez de Poké-Dollars. Vous avez besoin de : {PRICE}$"
+    SHOP_SUCCESS = "@{USER} Achat réussi !"
+
+    # RAIDS
+    RAIDS_NO_RAID = "@{USER} Il n'y a pas de raid actif pour le moment."
+    RAIDS_NEXT_GOAL = "Prochain objectif"
+    RAIDS_REACHED_FINAL_GOAL = "Objectif final atteint ✅"
+    RAIDS_REACHED_GOAL = "Objectif de pallier atteint ✅ Améliorations disponibles :"
+    RAIDS_CAUGHT = "attrapé"
+    RAIDS_MINIMUM_1000 = "@{USER} Vous devez donner au moins 1000 $ pour rejoindre le raid."
