@@ -19,7 +19,7 @@
     battleEffective: "C'est super efficace !",
     battleNoEffect: "Cela n'a pas d'effet...",
     battleCriticalHit: "Coup critique !",
-    battleNotAwaitingMove: "Capacité déjà selectionnée.",
+    battleNotAwaitingMove: "Capacité déjà sélectionnée.",
     battleMultipleHits: (amount) => `${amount} coups !`,
     battleStatUp1: (pokemonName, statName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span>'s ${statName} a augmenté.`,
     battleStatUp2: (pokemonName, statName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span>'s ${statName} a fortement augmenté !`,
