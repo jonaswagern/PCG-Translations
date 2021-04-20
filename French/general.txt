@@ -21,7 +21,7 @@
     // default screens
     notStarted: "Entrer !pokestart pour commencer votre aventure !",
     notWhitelisted: "Cette chaîne n'est pas sur la liste blanche.",
-    contactOnDiscord: "Contactez-nous sur notre discord pour que votre chaine soit sur la liste blanche:",
+    contactOnDiscord: "Contactez-nous sur notre discord pour que votre chaine soit sur la liste blanche :",
 
     loading: "Chargement...",
     loadingFailed: "Echec du chargement. Veuillez réessayer.",
