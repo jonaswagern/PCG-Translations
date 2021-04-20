@@ -1,7 +1,7 @@
     changePokemonButton: "Échange de Pokemon",
     searchBattle: "Recherche de combat",
 
-    wantToBattle: "Est ce que vous voulez commencer le combat",
+    wantToBattle: "Est-ce que vous voulez commencer le combat ?",
     waitForPlayer: "Attente d'autres joueurs...",
 
     noTeam: "Tu n'as pas d'équipe.",
@@ -39,7 +39,7 @@
     battleEnemyEndConfusion: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> n'est plus confus.`,
     battleEnemyFrozen: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> est gelé`,
     battleIsSleeping: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> est endormi et ne peut plus bouger.`,
-    battleConfused: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> est confus et s'est bléssé lui même.`,
+    battleConfused: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> est confus et s'est blessé lui-même.`,
     battleIsFrozen: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> est gelé et ne peut plus bouger.`,
     battleFlinched: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> est apeuré et ne peut plus attaquer.`,
     battleHealed: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">HP of ${pokemonName}</span> ont été restaurés.`,
@@ -47,7 +47,7 @@
     battleUnthawed: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> est dégelé.`,
     battleRecoilApplied: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> a pris des dégats de recul.`,
     battlePoisonDamage: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> a pris des dégats de poison.`,
-    battleBurnDamage: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> a pris dégats de brûlure.`,
+    battleBurnDamage: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> a pris des dégats de brûlure.`,
     battlePokemonChanged: (LastPokemonName, CurrentPokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${LastPokemonName}</span> a été échangé avec <span class="battle-log-pokemonname" style="color:#63ff78">${CurrentPokemonName}</span>.`,
 
     // field effects
@@ -57,13 +57,13 @@
     battleHailDamage: 'Le Pokémon prend des dégats de grêle.',
     battleHailEnd: 'Il s'est arrêté de grêler.',
     battleSandstormStarted: "Une tempête de sable se prépare",
-    battleSandstormDamage: "La tempête de sable inflige des dégats aux Pokémons.",
-    battleSandstormEnd: "La tempète de sable se calme.",
+    battleSandstormDamage: "Le Pokémon prend des dégats de la tempête de sable.",
+    battleSandstormEnd: "La tempête de sable se calme.",
     battleSunStarted: `Les rayons du soleil brillent.`,
     battleSunEnd: `Le soleil se retire.`,
 
     // battle ended
-    BattleWin: "Félicitation, tu as remporté le combat !",
+    BattleWin: "Félicitations, tu as remporté le combat !",
     BattleLose: "Tu as perdu le combat !",
-    BattleXP: (XP) => `Ton équipe remporte ${XP} EXP!`,
-    BattleNoXP: "Ton équipe n'a pas remporté d'EXP!",
+    BattleXP: (XP) => `Ton équipe remporte ${XP} EXP !`,
+    BattleNoXP: "Ton équipe n'a pas remporté d'EXP !",
