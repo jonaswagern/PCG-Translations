@@ -1,0 +1,53 @@
+    pokemonListHeadline: "Twój Pokémon",
+
+    // info panel
+    info: "Informacje",
+    stats: "Statystyki",
+    moves: "Ruchy",
+    movesNotFound: "Nie udało się znaleźć Twoich ruchów",
+    name: "Nazwa",
+    hp: "Hp",
+    attack: "Atak",
+    specialAttack: "Specjalny Atk.",
+    defense: "Obrona",
+    specialDefense: "Specjalna Obr.",
+    speed: "Prędkość",
+
+    // stat values
+    horrible: "Okropny",
+    bad: "Zły",
+    avg: "Średni",
+    good: "Dobry",
+    fantastic: "Fantastyczny",
+    perfect: "Perfekcyjny",
+
+    // additional infos
+    caughtBy: "Złapany przez",
+    originalChannel: "Pochodzenie",
+    caughtAtFormat: (year, month, day) => `${month}/${day}/${year}`,
+
+    // selling
+    sell: (amount) => `Sprzedaj $${amount}`,
+    sellConfirmMessage: (name, lvl) => `Twój <span class="font-weight-bold">${name}, Poziom. ${lvl}</span> zostanie sprzedany na zawsze.<br>Kontynuować?`,
+    sellSuccess: "Sprzedałeś Pokémon'a",
+    sellLast: "Nie możesz sprzedać ostatniego Pokémon'a",
+    sellNotExists: "Ten Pokémon nie istnieje",
+    sellNotYourPokemon: "Nie jest Twoim Pokémon'en",
+
+    // sort filter
+    changeSort: "Zmień sortowanie",
+    sortByID: "ID",
+    sortByName: "Nazwa",
+    sortByLevel: "Poziom",
+    sortByHP: "HP",
+    sortByPrice: "Cena",
+    sortByShiny: "Błyszczący",
+    sortByAvgIV: "IV",
+
+    // error messages
+    PokemonTeamFull: "Twoja drużyna jest pełna!",
+    PokemonNotInTeam: "Ten Pokémon nie jest w Twojej drużynie",
+    PokemonAlreadyInTeam: "Ten Pokémon jest już w Twojej drużynie",
+    PokemonNotOwnedAnymore: "Nie posiadasz tego Pokémon'a",
+
+    PokemonNicknameTooLong: "Nick jest za długi"
