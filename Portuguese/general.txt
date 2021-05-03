@@ -1,28 +1,28 @@
-    back: "Back",
-    continue: "Continue",
-    cancel: "Cancel",
-    close: "Close",
-    success: "Success",
-    error: "Error",
-    okay: "Okay",
-    value: "Value",
-    cancelled: "Cancelled",
+    back: "Voltar",
+    continue: "Continuar",
+    cancel: "Cancelar",
+    close: "Fechar",
+    success: "Successo",
+    error: "Erro",
+    okay: "Ok",
+    value: "Valor",
+    cancelled: "Cancelado",
 
     // icons
-    computer: "Computer",
-    inventory: "Inventory",
-    searchBattle: "Search battle",
+    computer: "Computador",
+    inventory: "Inventário",
+    searchBattle: "Procurar batalha",
 
-    dailyReward: "Join our discord for free to get daily rewards!",
+    dailyReward: "Participe do nosso discord de graça para receber recompensas!",
 
     // user
-    userIdNotShared: "Please grant access to your Twitch-ID.",
+    userIdNotShared: "Por favor, dê permissão para o seu Twitch-ID.",
 
     // default screens
-    notStarted: "Enter !pokestart to start your adventure!",
-    notWhitelisted: "This channel is not whitelisted.",
-    contactOnDiscord: "Contact us on our discord to get your channel whitelisted:",
+    notStarted: "Digite !pokestart para iniciar sua aventura!",
+    notWhitelisted: "Este canal não está na lista de permissões.",
+    contactOnDiscord: "Nos contate pelo discord para ganhar permissão para seu canal:",
 
-    loading: "Loading...",
-    loadingFailed: "Loading failed. Please try again.",
-    unknownError: "An unknown error occured! Please report it to us on discord https://discord.gg/cT3ThCj \n\n",
+    loading: "Carregando...",
+    loadingFailed: "Carregamento falhou. Por favor tente de novo.",
+    unknownError: "Ocorreu um erro desconhecido! Por favor informe no nosso discord: https://discord.gg/cT3ThCj \n\n",
