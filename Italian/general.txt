@@ -1,28 +1,28 @@
-    back: "Back",
-    continue: "Continue",
-    cancel: "Cancel",
-    close: "Close",
-    success: "Success",
-    error: "Error",
+    back: "Indietro",
+    continue: "Continua",
+    cancel: "Annulla",
+    close: "Chiudi",
+    success: "Completato",
+    error: "Errore",
     okay: "Okay",
-    value: "Value",
-    cancelled: "Cancelled",
+    value: "Valore",
+    cancelled: "Annullato",
 
     // icons
     computer: "Computer",
-    inventory: "Inventory",
-    searchBattle: "Search battle",
+    inventory: "Inventario",
+    searchBattle: "Cerca battaglia",
 
-    dailyReward: "Join our discord for free to get daily rewards!",
+    dailyReward: "Unisciti al nostro discord gratuitamente per ottenere premi giornalieri!",
 
     // user
-    userIdNotShared: "Please grant access to your Twitch-ID.",
+    userIdNotShared: "Per favore garantisci accesso al tuo ID Twitch.",
 
     // default screens
-    notStarted: "Enter !pokestart to start your adventure!",
-    notWhitelisted: "This channel is not whitelisted.",
-    contactOnDiscord: "Contact us on our discord to get your channel whitelisted:",
+    notStarted: "Scrivi !pokestart per iniziare la tua avventura!",
+    notWhitelisted: "Questo canale non è abilitato.",
+    contactOnDiscord: "Contattaci sul nostro Discord per abilitare il tuo canale:",
 
-    loading: "Loading...",
-    loadingFailed: "Loading failed. Please try again.",
-    unknownError: "An unknown error occured! Please report it to us on discord https://discord.gg/cT3ThCj \n\n",
+    loading: "Caricamento...",
+    loadingFailed: "Caricamento fallito. Per favore prova ancora.",
+    unknownError: "Errore sconosciuto! Per favore segnalalo sul nostro Discord https://discord.gg/cT3ThCj \n\n",
