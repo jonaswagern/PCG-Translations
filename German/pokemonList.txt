@@ -1,0 +1,59 @@
+    pokemonListHeadline: "Deine Pokémon",
+
+    // info panel
+    info: "Info",
+    team: "Team",
+    stats: "Stats",
+    moves: "Moves",
+    movesNotFound: "Die Attacken konnten nicht gefunden werden",
+    name: "Name",
+    hp: "Hp",
+    attack: "Angriff",
+    specialAttack: "Spezial Angr.",
+    defense: "Verteidigung",
+    specialDefense: "Spezial-Vert.",
+    speed: "Initiative",
+
+    // stat values
+    horrible: "Furchtbar",
+    bad: "Schlecht",
+    avg: "Mittelmäßig",
+    good: "Gut",
+    fantastic: "Fantastisch",
+    perfect: "Perfekt",
+
+    // additional infos
+    caughtBy: "Gefangen von",
+    originalChannel: "Herkunft",
+    caughtAtFormat: (year, month, day) => `${day}.${month}.${year}`,
+
+    // selling
+    sell: (amount) => `Verkaufen $${amount}`,
+    sellConfirmMessage: (name, lvl) => `Bist du sicher, dass du dein <span class="font-weight-bold">${name} LVL. ${lvl}</span> verkaufen möchtest?`,
+    trade: 'Tauschen',
+    wondertrade: 'Wundertausch',
+    tradeConfirmMessage: (name, lvl) => `Bist du sicher, dass du dein <span class="font-weight-bold">${name} LVL. ${lvl}</span> tauschen möchtest?`,
+    sellSuccess: "Du hast dein Pokémon in Obhut des Händlers gegeben",
+    sellLast: "Du kannst dein letztes Pokémon nicht verkaufen",
+    sellNotExists: "Das Pokémon existiert nicht mehr",
+    sellNotYourPokemon: "Das Pokémon gehört dir nicht mehr",
+
+    tradeCooldown:  (time) => `Cooldown: ${time}`,
+
+    // sort filter
+    changeSort: "Sortierung ändern",
+    sortByID: "ID",
+    sortByName: "Name",
+    sortByLevel: "Level",
+    sortByHP: "KP",
+    sortByPrice: "Preis",
+    sortByShiny: "Shiny",
+    sortByAvgIV: "IV",
+
+    // error messages
+    PokemonTeamFull: "Das Team ist voll",
+    PokemonNotInTeam: "Das Pokemon ist nicht in deinem Team",
+    PokemonAlreadyInTeam: "Pokemon ist schon im Team",
+    PokemonNotOwnedAnymore: "Du bestzt das Pokemon nicht mehr",
+
+    PokemonNicknameTooLong: "Der Spitzname ist zu lang"

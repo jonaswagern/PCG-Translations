@@ -1,0 +1,17 @@
+
+    yourItems: "Deine Items",
+    useItem: "Benutzen",
+    useItemSuccess: "Erfolgreich benutzt",
+
+    itemNotExists: "Dir gehört das Item nicht mehr",
+    itemAlreadyActive: "Der Item Effekt ist noch aktiv. Bitte versuche es später erneut",
+    itemNoBuddy: "Bitte wähl einen Kumpel aus",
+
+    PokemonFullHp: "Pokémon hat bereits die vollen HP",
+    PokemonDead: "Pokémon muss noch belebt werden",
+    PokemonStillAlive: "Pokémon lebt noch",
+    PokemonNoStatusCondition: "Pokémon ist nicht von Statuseffekten betroffen",
+    PokemonFullPP: "Alle Moves haben die vollen PP",
+
+    sellConfirmMessage: (name) => `Bist du sicher, dass du <span class="font-weight-bold">${name}</span> verkaufen möchtest?`,
+    sellSuccess: "Du hast dein Item erfolgreich verkauft.",

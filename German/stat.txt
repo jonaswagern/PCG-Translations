@@ -1,0 +1,7 @@
+    attack: "Angriff",
+    specialAttack: "Spezial-Angriff",
+    defense: "Verteidigung",
+    specialDefense: "Spezial-Verteidigung",
+    speed: "Initiative",
+    accuracy: "Genauigkeit",
+    evasion: "Fluchtwert"

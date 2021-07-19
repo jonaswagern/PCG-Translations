@@ -1,0 +1,30 @@
+
+    back: "Zurück",
+    continue: "Weiter",
+    cancel: "Abbrechen",
+    close: "Schließen",
+    success: "Erfolg",
+    error: "Fehler",
+    okay: "Okay",
+    value: "Wert",
+    cancelled: "Abgebrochen",
+
+    // icons
+    computer: "Computer",
+    inventory: "Inventar",
+    searchBattle: "Battle suchen",
+
+    dailyReward: "Tritt unserem Discord bei und erhalte täglich Belohnungen!",
+
+    // user
+    userIdNotShared: "Bitte erteile Zugriff auf deine Twitch-ID.",
+
+    // default screens
+    notStarted: "Gib !pokestart in den Chat ein um dein Abenteuer zu beginnen!",
+    notWhitelisted: "Dieser Channel ist nicht gewhitelisted.",
+    contactOnDiscord: "Tritt unserem Discord bei und lasse deinen Channel whitelisten:",
+
+    loading: "Wird geladen...",
+    loadingFailed: "Laden fehlgeschlagen. Bitte versuche es erneut.",
+    unknownError: "Ein unbekannter Fehler ist aufgetreten. Please report it to us on discord https://discord.gg/cT3ThCj \n\n",
+    connectionFailed: "The connection to the server failed. Please try again later!"
