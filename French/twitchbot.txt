@@ -7,10 +7,10 @@ TWITCH_ID_MISSING = "Twitch nous envoie des données incomplètes ! Veuillez ré
 
 NO_TRAINER_PASS = "@{USER} Vous n'avez pas encore votre passe de dresseur 🤨 Tapez !pokestart pour obtenir votre Pokémon de départ. 😏"
 ALREADY_OWN_TRAINER_PASS = "@{USER} Vous avez déjà un passe de dresseur."
-PASS_CREATED = "@{USER} Yaaaayy ! Votre voyage commence maintenant ! Votre Pokémon de départ est {STARTER} (Lv {LEVEL})."
+PASS_CREATED = "@{USER} Youpi ! Votre voyage commence maintenant ! Votre Pokémon de départ est {STARTER} (niv. {LEVEL})."
 
-USER_BALANCE = "@{USER} ta solde est de : {BALANCE}$"
-TRAINER_BUDDY = "@{USER} ton copain est : {BUDDY-POKEMON} (lvl {LEVEL}) 👀 Moyenne IV: {AVERAGE IV}."
+USER_BALANCE = "@{USER} ton solde est de : {BALANCE}$"
+TRAINER_BUDDY = "@{USER} ton copain est : {BUDDY-POKEMON} (niv. {LEVEL}) 👀 Moyenne IV: {AVERAGE IV}."
 TRAINER_NO_BUDDY = "@{USER} Vous n'avez pas encore sélectionné de copain. Faites un clic droit sur un Pokémon dans l'extension pour sélectionner votre copain !"
 TRAINER_DEX_UNKNOWN = "@{USER} Ce dex n'existe pas. Veuillez choisir une génération ou un type."
 TRAINER_DEX_DATA = "@{USER} {DEX-TYPE} : {AMOUNT CAUGHT} / {AMOUNT ALL POKEMON} ({COMPLETION IN%}%)"
