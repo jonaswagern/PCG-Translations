@@ -1,0 +1,13 @@
+    yourItems: "Dina föremål",
+    useItem: "Använd",
+    useItemSuccess: "Förmål användes",
+
+    itemNotExists: "Du äger inte detta föremål längre",
+    itemAlreadyActive: "Detta föremåls effekt är fortfarande aktiv. Försök igen senare",
+    itemNoBuddy: "Tränaren har ingen kompis",
+
+    PokemonFullHp: "Pokémon har full HP",
+    PokemonDead: "Pokémon måste återupplivas",
+    PokemonStillAlive: "Pokémon behöver inte återupplivas",
+    PokemonNoStatusCondition: "Pokémon påverkas inte av sitt tillstånd",
+    PokemonFullPP: "Alla drag har full PP",

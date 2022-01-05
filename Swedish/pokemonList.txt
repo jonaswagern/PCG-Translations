@@ -1,0 +1,53 @@
+    pokemonListHeadline: "Din Pokémon",
+
+    // info panel
+    info: "Info",
+    stats: "Statistik",
+    moves: "Drag",
+    movesNotFound: "Kunde inte hitta ditt drag",
+    name: "Namn",
+    hp: "Hp",
+    attack: "Attack",
+    specialAttack: "Specialattack.",
+    defense: "Försvar",
+    specialDefense: "Specialförsvar",
+    speed: "Hastighet",
+
+    // stat values
+    horrible: "Usel",
+    bad: "Dålig",
+    avg: "Medel",
+    good: "Bra",
+    fantastic: "Fantastsk",
+    perfect: "Perfekt",
+
+    // additional infos
+    caughtBy: "Fångad av",
+    originalChannel: "Ursprung",
+    caughtAtFormat: (år, månad, dag) => `${month}/${day}/${year}`,
+
+    // selling
+    sell: (amount) => `Sälj $${amount}`,
+    sellConfirmMessage: (name, lvl) => `Din <span class="font-weight-bold">${name} LVL. ${lvl}</span> kommer att försvinna för alltid.<br>Fortsätt?`,
+    sellSuccess: "Du sålde din Pokémon",
+    sellLast: "Du kan inte sälja din sista Pokémon",
+    sellNotExists: "Denna Pokémon finns inte längre",
+    sellNotYourPokemon: "Detta är inte din Pokémon längre",
+
+    // sort filter
+    changeSort: "Ändra sortering",
+    sortByID: "ID",
+    sortByName: "Namn",
+    sortByLevel: "Nivå",
+    sortByHP: "HP",
+    sortByPrice: "Pris",
+    sortByShiny: "Shiny",
+    sortByAvgIV: "IV",
+
+    // error messages
+    PokemonTeamFull: "Ditt lag är fullt",
+    PokemonNotInTeam: "Denna Pokémon är inte med i ditt lag",
+    PokemonAlreadyInTeam: "Denna Pokémon är redan med i ditt lag",
+    PokemonNotOwnedAnymore: "Du äger inte denna Pokémon längre",
+
+    PokemonNicknameTooLong: "Smeknamnet är för långt"
