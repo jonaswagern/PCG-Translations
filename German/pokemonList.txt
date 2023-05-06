@@ -13,6 +13,11 @@
     defense: "Verteidigung",
     specialDefense: "Spezial-Vert.",
     speed: "Initiative",
+    total: "Total",
+    progress: "Fortschritt",
+    weight: "Gewicht",
+    generation: "Generation",
+    base_stats: "Basiswerte",
 
     // stat values
     horrible: "Furchtbar",
@@ -37,8 +42,10 @@
     sellLast: "Du kannst dein letztes Pokémon nicht verkaufen",
     sellNotExists: "Das Pokémon existiert nicht mehr",
     sellNotYourPokemon: "Das Pokémon gehört dir nicht mehr",
+    sellPriceChanged: "Der Verkaufspreis deines Pokemons hat sich geändert! Bitte aktualisiere die Extension!",
 
-    tradeCooldown:  (time) => `Cooldown: ${time}`,
+    tradeCooldown: (time) => `Cooldown: ${time}`,
+    tradeCooldownIsActive: "You already wondertraded in the past 3 hours",
 
     // sort filter
     changeSort: "Sortierung ändern",
@@ -48,7 +55,9 @@
     sortByHP: "KP",
     sortByPrice: "Preis",
     sortByShiny: "Shiny",
+    sortByBaseStat: "Base stats",
     sortByAvgIV: "IV",
+    sortByRecent: "Kürzlich",
 
     // error messages
     PokemonTeamFull: "Das Team ist voll",
@@ -56,4 +65,7 @@
     PokemonAlreadyInTeam: "Pokemon ist schon im Team",
     PokemonNotOwnedAnymore: "Du bestzt das Pokemon nicht mehr",
 
-    PokemonNicknameTooLong: "Der Spitzname ist zu lang"
+    PokemonNicknameTooLong: "Der Spitzname ist zu lang",
+    PokemonTeamNameTooLong: "Der Name deines Teams ist zu lang",
+
+    caughtOn: "Caught on"

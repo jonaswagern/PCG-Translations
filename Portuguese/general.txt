@@ -2,27 +2,33 @@
     continue: "Continuar",
     cancel: "Cancelar",
     close: "Fechar",
-    success: "Successo",
+    success: "Sucesso",
     error: "Erro",
-    okay: "Ok",
+    okay: "Okay",
     value: "Valor",
     cancelled: "Cancelado",
 
     // icons
     computer: "Computador",
     inventory: "Inventário",
-    searchBattle: "Procurar batalha",
+    searchBattle: "Buscar Batalha",
 
-    dailyReward: "Participe do nosso discord de graça para receber recompensas!",
+    dailyReward: "Junte-se ao nosso discord para ganhar recompensas diárias grátis!",
 
     // user
-    userIdNotShared: "Por favor, dê permissão para o seu Twitch-ID.",
+    userIdNotShared: "Por favor garanta acesso ao seu ID da Twitch.",
 
     // default screens
-    notStarted: "Digite !pokestart para iniciar sua aventura!",
-    notWhitelisted: "Este canal não está na lista de permissões.",
-    contactOnDiscord: "Nos contate pelo discord para ganhar permissão para seu canal:",
+    notStarted: "Digite !pokestart para começar a sua aventura!",
+    notStartedDiscord: "Digite !pokestart para começar a sua aventura!<br>Se você precisar de ajuda contate a gente no discord <br>https://discord.gg/cT3ThCj",
+    notWhitelisted: "Esse canal não é whitelisted.",
+    chooseChatBotLanguage: "Please choose the language of the chatbot:",
+    notWhitelistedDiscord: "Esse canal não é whitelisted!<br>Se você precisar de ajuda contate a gente no discord <br>https://discord.gg/cT3ThCj",
+    contactOnDiscord: "Junte-se ao nosso discord para usar o nosso sistema automatizado de se tornar whitelisted e selecionar a linguagem de sua escolha:",
 
     loading: "Carregando...",
-    loadingFailed: "Carregamento falhou. Por favor tente de novo.",
-    unknownError: "Ocorreu um erro desconhecido! Por favor informe no nosso discord: https://discord.gg/cT3ThCj \n\n",
+    loadingFailed: "Falha no carregamento. Por favor tente novamente.",
+    unknownError: "Um erro desconhecido aconteceu! Por favor tente atualizar a pagina! <br> Se o problema persistir reporte no nosso discord <br>https://discord.gg/cT3ThCj",
+    tokenExpired: "O token de autentificação da twitch expirou. Por favor atualize o website ou reinicie o seu app",
+    invalidToken: "<h5>Autentificação falhada</h5> Por favor tenha certeza de que seu sistema esteja sincronizado! <br> Caso contrário a autentificação vai falhar!<br><br>Mais soluções:<br>1) Refresh na pagina<br>2) Desabilite o browser da extensão<br>3) Remova e garanta novamente permissão a extensão<br>4) Login e logout na twitch<br>5) Tente um browser diferente<br><br>Para mais ajuda visite o nosso discord <br> https://discord.gg/cT3ThCj",
+    connectionFailed: "A conexão ao servidor falhou. Por favor tente novamente mais tarde!"

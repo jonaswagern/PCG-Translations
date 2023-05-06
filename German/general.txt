@@ -1,4 +1,3 @@
-
     back: "Zurück",
     continue: "Weiter",
     cancel: "Abbrechen",
@@ -21,10 +20,15 @@
 
     // default screens
     notStarted: "Gib !pokestart in den Chat ein um dein Abenteuer zu beginnen!",
+    notStartedDiscord: "Enter !pokestart to start your adventure!<br>If you need more help contact us on discord <br>https://discord.gg/cT3ThCj",
     notWhitelisted: "Dieser Channel ist nicht gewhitelisted.",
-    contactOnDiscord: "Tritt unserem Discord bei und lasse deinen Channel whitelisten:",
+    chooseChatBotLanguage: "Please choose the language of the chatbot:",
+    notWhitelistedDiscord: "This channel is not whitelisted!<br>If you need more help contact us on discord <br>https://discord.gg/cT3ThCj",
+    contactOnDiscord: "Tritt unserem Discord bei und nutze unser automatisches Whitelist-System um deine präferierte Sprache auszuwählen:",
 
     loading: "Wird geladen...",
     loadingFailed: "Laden fehlgeschlagen. Bitte versuche es erneut.",
-    unknownError: "Ein unbekannter Fehler ist aufgetreten. Please report it to us on discord https://discord.gg/cT3ThCj \n\n",
+    unknownError: "Ein unbekannter Fehler ist aufgetreten. Bitte versuche zunächst die Webseite zu aktualisieren! <br> Sollte das Problem bestehen bleiben dann reporte es bitte uns auf discord <br>https://discord.gg/cT3ThCj",
+    tokenExpired: "The twitch authentication token expired. Please reload the website or restart your app",
+    invalidToken: "<h5>Authentication failed</h5> Please be sure that your system clock is synced! <br> Otherwise the authentication will fail!<br><br>More solutions:<br>1) Page refresh<br>2) Disabling browser extensions<br>3) Revoke and grant the extension permission<br>4) Login and logout on twitch<br>5) Trying out a different browser<br><br>For more help join our discord <br> https://discord.gg/cT3ThCj",
     connectionFailed: "The connection to the server failed. Please try again later!"

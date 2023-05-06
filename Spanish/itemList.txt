@@ -5,9 +5,17 @@
     itemNotExists: "You don't own this item anymore",
     itemAlreadyActive: "The item effect is still active. Please try again later",
     itemNoBuddy: "Trainer has no buddy",
+    itemTeamListFull: "The maximum of teams you can have is 20",
 
     PokemonFullHp: "Pokémon at full hp",
     PokemonDead: "Pokémon needs to be revived",
     PokemonStillAlive: "Pokémon does not need to be revived",
     PokemonNoStatusCondition: "Pokémon not affected by status condition",
     PokemonFullPP: "All moves at full PP",
+
+    sellConfirmMessage: (name) => `Are you sure that you want to sell your <span class="font-weight-bold">${name}</span>?`,
+    useConfirmMessage: (item, pkm) => `Are you sure that you want to use the item <span class="font-weight-bold">${item}</span> on <span class="font-weight-bold">${pkm}</span>?`,
+    sellSuccess: "You successfully sold your item",
+
+    wonderPassNoCooldown: "Your Wonderpass is not on cooldown!",
+    pokedailyNoCooldown: "Your Pokedaily is not on cooldown!",

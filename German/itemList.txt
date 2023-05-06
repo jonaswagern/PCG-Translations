@@ -1,4 +1,3 @@
-
     yourItems: "Deine Items",
     useItem: "Benutzen",
     useItemSuccess: "Erfolgreich benutzt",
@@ -6,6 +5,7 @@
     itemNotExists: "Dir gehört das Item nicht mehr",
     itemAlreadyActive: "Der Item Effekt ist noch aktiv. Bitte versuche es später erneut",
     itemNoBuddy: "Bitte wähl einen Kumpel aus",
+    itemTeamListFull: "Du kannst maximal 20 Teams haben",
 
     PokemonFullHp: "Pokémon hat bereits die vollen HP",
     PokemonDead: "Pokémon muss noch belebt werden",
@@ -14,4 +14,8 @@
     PokemonFullPP: "Alle Moves haben die vollen PP",
 
     sellConfirmMessage: (name) => `Bist du sicher, dass du <span class="font-weight-bold">${name}</span> verkaufen möchtest?`,
+    useConfirmMessage: (item, pkm) => `Bist du sicher, dass du das Item <span class="font-weight-bold">${item}</span> auf <span class="font-weight-bold">${pkm}</span> anwenden möchtest?`,
     sellSuccess: "Du hast dein Item erfolgreich verkauft.",
+
+    wonderPassNoCooldown: "Your Wonderpass is not on cooldown!",
+    pokedailyNoCooldown: "Your Pokedaily is not on cooldown!",

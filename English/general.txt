@@ -1,25 +1,34 @@
-    back: "Back",
+    back: "Retour",
     continue: "Continue",
-    cancel: "Cancel",
-    close: "Close",
-    success: "Success",
-    error: "Error",
-    okay: "Okay",
-    value: "Value",
-    cancelled: "Cancelled",
+    cancel: "Annuler",
+    close: "Fermer",
+    success: "Réussi",
+    error: "Erreur",
+    okay: "Ok",
+    value: "Valeur",
+    cancelled: "A été annulé",
 
-    computer: "Computer",
-    inventory: "Inventory",
-    searchBattle: "Search battle",
+    // icons
+    computer: "Ordinateur",
+    inventory: "Inventaire",
+    searchBattle: "Recherche de combat",
 
-    dailyReward: "Join our discord for free to get daily rewards!",
+    dailyReward: "Rejoignez notre discord gratuitement pour recevoir des récompenses quotidiennes !",
 
-    userIdNotShared: "Please grant access to your Twitch-ID.",
+    // user
+    userIdNotShared: "Veuillez autoriser l'accès à votre identifiant Twitch.",
 
-    notStarted: "Enter !pokestart to start your adventure!",
-    notWhitelisted: "This channel is not whitelisted.",
-    contactOnDiscord: "Contact us on our discord to get your channel whitelisted:",
+    // default screens
+    notStarted: "Entrez !pokestart pour commencer votre aventure !",
+    notStartedDiscord: "Enter !pokestart to start your adventure!<br>If you need more help contact us on discord <br>https://discord.gg/cT3ThCj",
+    notWhitelisted: "Cette chaîne n'est pas sur la liste blanche.",
+    chooseChatBotLanguage: "Please choose the language of the chatbot:",
+    notWhitelistedDiscord: "This channel is not whitelisted!<br>If you need more help contact us on discord <br>https://discord.gg/cT3ThCj",
+    contactOnDiscord: "Contactez-nous sur notre discord pour que votre chaine soit sur la liste blanche :",
 
-    loading: "Loading...",
-    loadingFailed: "Loading failed. Please try again.",
-    unknownError: "An unknown error occured! Please report it to us on discord https://discord.gg/cT3ThCj \n\n",
+    loading: "Chargement...",
+    loadingFailed: "Échec du chargement. Veuillez réessayer.",
+    unknownError: "Une erreur inconnue est apparue! Veuillez nous la reporter sur notre discord https://discord.gg/cT3ThCj",
+    tokenExpired: "The Twitch authentication token expired. Please reload the website or restart your app",
+    invalidToken: "<h5>Authentication failed</h5> Please be sure that your system clock is synced! <br> Otherwise the authentication will fail!<br><br>More solutions:<br>1) Page refresh<br>2) Disabling browser extensions<br>3) Revoke and grant the extension permission<br>4) Login and logout on twitch<br>5) Trying out a different browser<br><br>For more help join our discord <br> https://discord.gg/cT3ThCj",
+    connectionFailed: "The connection to the server failed. Please try again later!"

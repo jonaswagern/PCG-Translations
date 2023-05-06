@@ -2,6 +2,7 @@
 
     // info panel
     info: "Info",
+    team: "Team",
     stats: "Stats",
     moves: "Moves",
     movesNotFound: "Could not find your moves",
@@ -12,6 +13,11 @@
     defense: "Defense",
     specialDefense: "Special Def.",
     speed: "Speed",
+    total: "Total",
+    progress: "Progress",
+    weight: "Weight",
+    generation: "Generation",
+    base_stats: "Base stats",
 
     // stat values
     horrible: "Horrible",
@@ -29,10 +35,17 @@
     // selling
     sell: (amount) => `Sell $${amount}`,
     sellConfirmMessage: (name, lvl) => `Your <span class="font-weight-bold">${name} LVL. ${lvl}</span> will be gone forever.<br>Continue?`,
+    trade: 'Trade',
+    wondertrade: 'Wondertrade',
+    tradeConfirmMessage: (name, lvl) => `Your <span class="font-weight-bold">${name} LVL. ${lvl}</span> will be gone forever.<br>Continue?`,
     sellSuccess: "You successfully sold your Pokémon",
     sellLast: "You can't sell your last Pokémon",
     sellNotExists: "This Pokémon does not exist anymore",
     sellNotYourPokemon: "This isn't your Pokémon anymore",
+    sellPriceChanged: "The sale price of your pokemon changed. Please refresh the extension",
+
+    tradeCooldown: (time) => `Cooldown: ${time}`,
+    tradeCooldownIsActive: "You already wondertraded in the past 3 hours",
 
     // sort filter
     changeSort: "Change sorting",
@@ -42,7 +55,9 @@
     sortByHP: "HP",
     sortByPrice: "Price",
     sortByShiny: "Shiny",
+    sortByBaseStat: "Base stats",
     sortByAvgIV: "IV",
+    sortByRecent: "Recent",
 
     // error messages
     PokemonTeamFull: "Your team is full",
@@ -50,4 +65,7 @@
     PokemonAlreadyInTeam: "This Pokémon is already in your team",
     PokemonNotOwnedAnymore: "You do not own this Pokémon anymore",
 
-    PokemonNicknameTooLong: "The nickname is too long"
+    PokemonNicknameTooLong: "The nickname is too long",
+    PokemonTeamNameTooLong: "The team name is too long",
+
+    caughtOn: "Caught on"
