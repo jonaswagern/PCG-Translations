@@ -1,7 +1,7 @@
 attack: "attaque",
-specialAttack: "attaque spécial",
+specialAttack: "attaque spéciale",
 defense: "défense",
-specialDefense: "défense spécial",
+specialDefense: "défense spéciale",
 speed: "vitesse",
 accuracy: "précision",
 evasion: "esquive"
