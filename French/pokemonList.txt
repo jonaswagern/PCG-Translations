@@ -14,7 +14,7 @@
     speed: "Vitesse",
 
     // stat values
-    horrible: "Pas Top",
+    horrible: "Pas top",
     bad: "Passable",
     avg: "Bon",
     good: "Très bon",
@@ -22,13 +22,13 @@
     perfect: "Exceptionnel",
 
     // additional infos
-    caughtBy: "Capturé par",
-    originalChannel: "Originaire",
+    caughtBy: "Attrapé par",
+    originalChannel: "Origine",
     caughtAtFormat: (year, month, day) => `${day}/${month}/${year}`,
 
     // selling
     sell: (amount) => `Vendre {amount}$$`,
-    sellConfirmMessage: (name, lvl) => `Ton <span class="font-weight-bold">${name} de Niveau. ${lvl}</span> disparaîtra pour toujours.<br>Continuer ?`,
+    sellConfirmMessage: (name, lvl) => `Ton <span class="font-weight-bold">${name} de niveau ${lvl}</span> disparaîtra pour toujours.<br>Continuer ?`,
     sellSuccess: "Vous avez vendu votre Pokémon avec succès",
     sellLast: "Vous ne pouvez pas vendre votre dernier Pokémon",
     sellNotExists: "Ce Pokémon n'existe plus",
