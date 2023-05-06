@@ -2,7 +2,7 @@
     continue: "Continue",
     cancel: "Annuler",
     close: "Fermer",
-    success: "Reussi",
+    success: "Réussi",
     error: "Erreur",
     okay: "Ok",
     value: "Valeur",
@@ -13,16 +13,16 @@
     inventory: "Inventaire",
     searchBattle: "Recherche de combat",
 
-    dailyReward: "Rejoignez notre discord gratuitement pour avoir des récompences quotidiennes !",
+    dailyReward: "Rejoignez notre discord gratuitement pour recevoir des récompenses quotidiennes !",
 
     // user
     userIdNotShared: "Veuillez autoriser l'accès à votre identifiant Twitch.",
 
     // default screens
-    notStarted: "Entrer !pokestart pour commencer votre aventure !",
+    notStarted: "Entrez !pokestart pour commencer votre aventure !",
     notWhitelisted: "Cette chaîne n'est pas sur la liste blanche.",
     contactOnDiscord: "Contactez-nous sur notre discord pour que votre chaine soit sur la liste blanche :",
 
     loading: "Chargement...",
-    loadingFailed: "Echec du chargement. Veuillez réessayer.",
-    unknownError: "Une erreur inconnue est apparue! Veuillez-nous le reporter sur notre discord https://discord.gg/cT3ThCj \n\n",
+    loadingFailed: "Échec du chargement. Veuillez réessayer.",
+    unknownError: "Une erreur inconnue est apparue! Veuillez nous la reporter sur notre discord https://discord.gg/cT3ThCj \n\n",
