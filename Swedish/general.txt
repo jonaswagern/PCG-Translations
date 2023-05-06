@@ -1,0 +1,25 @@
+    back: "Bakåt",
+    continue: "Fortsätt",
+    cancel: "Avbryt",
+    close: "Stäng",
+    success: "Lyckat",
+    error: "Fel",
+    okay: "Okej",
+    value: "Värde",
+    cancelled: "Avbröts",
+
+    computer: "Dator",
+    inventory: "Förråd",
+    searchBattle: "Sök strid",
+
+    dailyReward: "Gå med i vår discord kostnadsfritt för få dagliga belöningar!",
+
+    userIdNotShared: "Vänligen lämna åtkomst till ditt Twitch-ID.",
+
+    notStarted: "Skriv !pokestart för att påbörja ditt äventyr!",
+    notWhitelisted: "Denna kanal är inte whitelistad.",
+    contactOnDiscord: "Kontakta oss på vår discord för att få din kanal whitelistad:",
+
+    loading: "Laddar...",
+    loadingFailed: "Inladdning misslyckad. Försök igen.",
+    unknownError: "Ett okänt fel har inträffat! Vänligen rapportera detta till oss på discord https://discord.gg/cT3ThCj \n\n",

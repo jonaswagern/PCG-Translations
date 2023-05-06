@@ -1,0 +1,47 @@
+CANT_REACH_BACKEND = "En anslutning till PokéTwitch-Servern kunde inte upprättas. Vänligen kontakta supporten! (https://discord.gg/cT3ThCj)"
+CMD_UNKNOWN = "@{USER} Detta kommando existerar inte. Skriv !pokehelp för en lista med alla kommandon."
+CMD_UNKNOWN_ERROR = "@{USER} Ett okänt fel har uppståt vid försök att använda kommandot. " \
+                    "Vänligen försökt igen om några sekunder."
+
+TWITCH_ID_MISSING = "Twitch skickar otillräcklig data! Vänligen försök igen senare."
+
+NO_TRAINER_PASS = "@{USER} Du har inget tränar-pass ännu 🤨 Skriv !pokestart för att få din Start-Pokémon. 😏"
+ALREADY_OWN_TRAINER_PASS = "@{USER} Du har redan ett pass."
+PASS_CREATED = "@{USER} Yaaaayy! Din resa börjar nu! Din första Pokémon är en {STARTER} (Lv {LEVEL})"
+
+USER_BALANCE = "@{USER}'s Saldo: ${BALANCE}"
+TRAINER_BUDDY = "@{USER}'s kompis: {BUDDY-POKEMON} (lvl {LEVEL}) 👀 Medel-IV: {AVERAGE IV}"
+TRAINER_NO_BUDDY = "@{USER} Du har inte valt någon kompis ännu. Högerklicka på en Pokémon i tillägget och klicka på hjärtat för att välja en kompis!"
+TRAINER_DEX_UNKNOWN = "@{USER} Denna dex finns inte. Vänligen välj en annan generation eller typ."
+TRAINER_DEX_DATA = "@{USER} {DEX-TYPE}: {AMOUNT CAUGHT}/{AMOUNT ALL POKEMON} ({COMPLETION IN %}%)"
+ITEM_LIST = "@{USER} Dina föremål: {ITEMS}"
+HELP = "Alla kommandon: https://docs.google.com/document/d/1OJP3uiBLQafNOKGibGNiepldoMmxe9F9Wj6EZFaxgGA/edit?usp=sharing"
+NO_MONEY = "@{USER} Du har inte tillräckligt med Poké-Dollars för att göra detta."
+POKEDAILY = "Besök vår Discord för att få en spännande belöming varje dag: https://discord.gg/cT3ThCj"
+
+POKECHECK = "@{USER} {POKEMON} fångad: {TRUE/FALSE}"
+POKECHECK_ERROR = "@{USER} Du måste välja en giltig Pokémon eller Pokédex-ID."
+
+# POKECATCH
+POKECATCH_ESCAPED = "@{USER} Oops, Pokémonen har redan rymt!"
+POKECATCH_INVALID_BALL = "@{USER} Den där typen av boll existerar inte :( (poke ball/great ball/ultra ball/master ball)"
+POKECATCH_NO_BALL = "@{USER} Du har ingen sådan boll. Skriv !pokebag för att se vilka förmål du har."
+POKECATCH_SPAWN = "TwitchLit En vild {POKEMON} dök upp! TwitchLit Fånga den med !pokecatch (vinnarna visas om 90s)"
+POKECATCH_WINNERS = "{POKEMON} har fångats av: {POKECATCH WINNERS}"
+POKECATCH_NO_WINNER = "{POKEMON} smet. Ingen fångade den."
+
+# SHOP
+SHOP_NO_ITEM = "@{USER} Specificera vilket föremål du vill köpa: !pokeshop <namn på föremål> <antal>"
+SHOP_NEGATIVE_QUANTITY = "@{USER} Du måste köpa minst ett föremål."
+SHOP_QUANTITY_LIMIT = "@{USER} Du kan inte köpa fler än 100 föremål på en gång."
+SHOP_NOT_FOR_SALE = "@{USER} Du kan inte köpa det föremålet."
+SHOP_NO_MONEY = "@{USER} Du har inte tillräckligt med Poké-Dollars för att köpa det föremålet. Du behöver: ${PRICE}"
+SHOP_SUCCESS = "@{USER} Köpet lyckades!"
+
+# RAIDS
+RAIDS_NO_RAID = "@{USER} Det finns inga aktiva raids just nu."
+RAIDS_NEXT_GOAL = "Nästa mål"
+RAIDS_REACHED_FINAL_GOAL = "Högsta målet nått ✅"
+RAIDS_REACHED_GOAL = "Mål nått ✅ Uppgraderingar tillgängliga: "
+RAIDS_CAUGHT = "fångade"
+RAIDS_MINIMUM_1000 = "@{USER} Du måste donera minst $1000 för att vara med i ett raid."
