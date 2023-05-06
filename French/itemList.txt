@@ -1,8 +1,9 @@
+    yourItems: "Vos objets",
     useItem: "Utiliser",
-    useItemSuccess: "Utilisation de l'objet réussi",
+    useItemSuccess: "Utilisation de l'objet réussie",
 
-    itemNotExists: "Vous ne possédez pas encore cet objet",
-    itemAlreadyActive: "L'effet de cet objet est encore actif. Réessayé plus tard, s'il vous plait",
+    itemNotExists: "Vous ne possédez plus cet objet",
+    itemAlreadyActive: "L'effet de cet objet est encore actif. Réessayez plus tard, s'il vous plait",
     itemNoBuddy: "Ce dresseur n'a pas de compagnon",
 
     PokemonFullHp: "Ce Pokémon a ses pv au maximum",
