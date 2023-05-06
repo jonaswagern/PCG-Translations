@@ -2,6 +2,7 @@
 
     // info panel
     info: "Info",
+    team: "Team",
     stats: "Statistiques",
     moves: "Capacités",
     movesNotFound: "Impossible de trouver vos capacités",
@@ -12,6 +13,11 @@
     defense: "Défense",
     specialDefense: "Déf. Spé.",
     speed: "Vitesse",
+    total: "Total",
+    progress: "Progress",
+    weight: "Weight",
+    generation: "Generation",
+    base_stats: "Base stats",
 
     // stat values
     horrible: "Pas top",
@@ -27,12 +33,19 @@
     caughtAtFormat: (year, month, day) => `${day}/${month}/${year}`,
 
     // selling
-    sell: (amount) => `Vendre {amount}$$`,
+    sell: (amount) => `Vendre ${amount}$`,
     sellConfirmMessage: (name, lvl) => `Ton <span class="font-weight-bold">${name} de niveau ${lvl}</span> disparaîtra pour toujours.<br>Continuer ?`,
+    trade: 'Trade',
+    wondertrade: 'Wondertrade',
+    tradeConfirmMessage: (name, lvl) => `Your <span class="font-weight-bold">${name} LVL. ${lvl}</span> will be gone forever.<br>Continue?`,
     sellSuccess: "Vous avez vendu votre Pokémon avec succès",
     sellLast: "Vous ne pouvez pas vendre votre dernier Pokémon",
     sellNotExists: "Ce Pokémon n'existe plus",
     sellNotYourPokemon: "Ce n'est plus votre Pokémon",
+    sellPriceChanged: "The sale price of your pokemon changed. Please refresh the extension",
+
+    tradeCooldown: (time) => `Cooldown: ${time}`,
+    tradeCooldownIsActive: "You already wondertraded in the past 3 hours",
 
     // sort filter
     changeSort: "Modifier le tri",
@@ -42,7 +55,9 @@
     sortByHP: "PV",
     sortByPrice: "Prix",
     sortByShiny: "Chromatique",
+    sortByBaseStat: "Base stats",
     sortByAvgIV: "IV",
+    sortByRecent: "Recent",
 
     // error messages
     PokemonTeamFull: "Votre équipe est pleine",
@@ -50,4 +65,7 @@
     PokemonAlreadyInTeam: "Ce Pokémon est déjà dans votre équipe",
     PokemonNotOwnedAnymore: "Vous ne possédez plus ce Pokémon",
 
-    PokemonNicknameTooLong: "Le surnom est trop long"
+    PokemonNicknameTooLong: "Le surnom est trop long",
+    PokemonTeamNameTooLong: "The team name is too long",
+
+    caughtOn: "Caught on"
