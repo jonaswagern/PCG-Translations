@@ -4,4 +4,4 @@ defense: "försvar",
 specialDefense: "specialförsvar",
 speed: "hastighet",
 accuracy: "pricksäkerhet",
-evasion: "flykt"
+evasion: "undvikande"

@@ -17,8 +17,8 @@
     userIdNotShared: "Vänligen lämna åtkomst till ditt Twitch-ID.",
 
     notStarted: "Skriv !pokestart för att påbörja ditt äventyr!",
-    notWhitelisted: "Denna kanal är inte whitelistad.",
-    contactOnDiscord: "Kontakta oss på vår discord för att få din kanal whitelistad:",
+    notWhitelisted: "Denna kanal är inte vitlistad .",
+    contactOnDiscord: "Kontakta oss på vår discord för att få din kanal vitlistad:",
 
     loading: "Laddar...",
     loadingFailed: "Inladdning misslyckad. Försök igen.",
