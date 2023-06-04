@@ -1,7 +1,8 @@
-    pokemonListHeadline: "Din Pokémon",
+    pokemonListHeadline: "Your Pokémon",
 
     // info panel
     info: "Info",
+    team: "Team",
     stats: "Statistik",
     moves: "Drag",
     movesNotFound: "Kunde inte hitta ditt drag",
@@ -12,6 +13,11 @@
     defense: "Försvar",
     specialDefense: "Specialförsvar",
     speed: "Hastighet",
+    total: "Total",
+    progress: "Progress",
+    weight: "Weight",
+    generation: "Generation",
+    base_stats: "Base stats",
 
     // stat values
     horrible: "Usel",
@@ -29,10 +35,16 @@
     // selling
     sell: (amount) => `Sälj $${amount}`,
     sellConfirmMessage: (name, lvl) => `Din <span class="font-weight-bold">${name} LVL. ${lvl}</span> kommer att försvinna för alltid.<br>Fortsätt?`,
+    trade: 'Trade',
+    wondertrade: 'Wondertrade',
+    tradeConfirmMessage: (name, lvl) => `Your <span class="font-weight-bold">${name} LVL. ${lvl}</span> will be gone forever.<br>Continue?`,
     sellSuccess: "Du sålde din Pokémon",
     sellLast: "Du kan inte sälja din sista Pokémon",
     sellNotExists: "Denna Pokémon finns inte längre",
-    sellNotYourPokemon: "Detta är inte din Pokémon längre",
+    sellNotYourPokemon: "Detta är inte din Pokémon längre",    sellPriceChanged: "The sale price of your pokemon changed. Please refresh the extension",
+
+    tradeCooldown: (time) => `Cooldown: ${time}`,
+    tradeCooldownIsActive: "You already wondertraded in the past 3 hours",
 
     // sort filter
     changeSort: "Ändra sortering",
@@ -42,7 +54,9 @@
     sortByHP: "HP",
     sortByPrice: "Pris",
     sortByShiny: "Shiny",
+    sortByBaseStat: "Base stats",
     sortByAvgIV: "IV",
+    sortByRecent: "Recent",
 
     // error messages
     PokemonTeamFull: "Ditt lag är fullt",
@@ -51,3 +65,6 @@
     PokemonNotOwnedAnymore: "Du äger inte denna Pokémon längre",
 
     PokemonNicknameTooLong: "Smeknamnet är för långt"
+    PokemonTeamNameTooLong: "The team name is too long",
+
+    caughtOn: "Caught on"

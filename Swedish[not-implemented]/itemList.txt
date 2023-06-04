@@ -5,9 +5,17 @@
     itemNotExists: "Du äger inte detta föremål längre",
     itemAlreadyActive: "Detta föremåls effekt är fortfarande aktiv. Försök igen senare",
     itemNoBuddy: "Tränaren har ingen kompis",
+    itemTeamListFull: "The maximum of teams you can have is 20",
 
     PokemonFullHp: "Pokémon har full HP",
     PokemonDead: "Pokémon måste återupplivas",
     PokemonStillAlive: "Pokémon behöver inte återupplivas",
     PokemonNoStatusCondition: "Pokémon påverkas inte av sitt tillstånd",
     PokemonFullPP: "Alla drag har full PP",
+
+    sellConfirmMessage: (name) => `Are you sure that you want to sell your <span class="font-weight-bold">${name}</span>?`,
+    useConfirmMessage: (item, pkm) => `Are you sure that you want to use the item <span class="font-weight-bold">${item}</span> on <span class="font-weight-bold">${pkm}</span>?`,
+    sellSuccess: "You successfully sold your item",
+
+    wonderPassNoCooldown: "Your Wonderpass is not on cooldown!",
+    pokedailyNoCooldown: "Your Pokedaily is not on cooldown!"
