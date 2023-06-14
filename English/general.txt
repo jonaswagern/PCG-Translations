@@ -22,7 +22,7 @@
     notStarted: "Enter !pokestart to start your adventure!",
     notStartedDiscord: "Enter !pokestart to start your adventure!<br>If you need more help contact us on discord <br>https://discord.gg/cT3ThCj",
     notWhitelisted: "This channel is not whitelisted.",
-        chooseChatBotLanguage: "Please choose the language of the chatbot:",
+    chooseChatBotLanguage: "Please choose the language of the chatbot:",
     notWhitelistedDiscord: "This channel is not whitelisted!<br>If you need more help contact us on discord <br>https://discord.gg/cT3ThCj",
     contactOnDiscord: "Join our discord to use our automated whitelist system where you can select the language of your choice:",
 
