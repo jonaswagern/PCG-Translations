@@ -71,6 +71,7 @@
     battleDisallowSwitching: (trainerName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${trainerName}</span> can't switch out anymore.`,
     battleAllowSwitching: (trainerName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${trainerName}</span> can switch out again.`,
 
+    battleEnemyEndMagnetRise: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> stopped levitating.`,
 
     // field effects
     battleRainEnd: `Parou de chover`,
