@@ -1,0 +1,21 @@
+yourItems: "I tuoi oggetti",
+useItem: "Usa",
+useItemSuccess: "Hai usato l'oggetto con successo!",
+
+itemNotExists: "Non possiedi più questo oggetto",
+itemAlreadyActive: "L'effetto dell'oggetto è ancora attivo. Per favore riprova pià tardi",
+itemNoBuddy: "L'allenatore non ha un compagno",
+itemTeamListFull: "Il numero massimo di squadre che puoi avere è 20",
+
+PokemonFullHp: "Il Pokémon ha tutti i PV",
+PokemonDead: "Il Pokémon ha bisogno di un revitalizzatore",
+PokemonStillAlive: "Il Pokémon non ha bisogno di un revitalizzatore",
+PokemonNoStatusCondition: "Il Pokémon non è affetto da uno status alterato",
+PokemonFullPP: "Tutte le mosse hanno il massimo dei PP",
+
+sellConfirmMessage: (name) => `Sei sicuro di voler vendere il tuo <span class="font-weight-bold">${name}</span>?`,
+useConfirmMessage: (item, pkm) => `Sei sicuro di voler usare l'oggetto <span class="font-weight-bold">${item}</span> su <span class="font-weight-bold">${pkm}</span>?`,
+sellSuccess: "Hai venduto con successo il tuo oggetto",
+
+wonderPassNoCooldown: "Il tuo Wonderpass non è in cooldown!",
+pokedailyNoCooldown: "Il tuo Pokedaily non è in cooldown!",

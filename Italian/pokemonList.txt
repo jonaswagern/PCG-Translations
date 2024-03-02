@@ -1,0 +1,71 @@
+pokemonListHeadline: "I tuoi Pokémon",
+
+// info panel
+info: "Info",
+team: "Team",
+stats: "Statistiche",
+moves: "Mosse",
+movesNotFound: "Mosse non trovare",
+name: "Nome",
+hp: "PV",
+attack: "Attacco",
+specialAttack: "Att. Speciale",
+defense: "Difesa",
+specialDefense: "Dif. Speciale",
+speed: "Velocità",
+total: "Totale",
+progress: "Progresso",
+weight: "Peso",
+generation: "Generazione",
+base_stats: "Statistiche di base",
+
+// stat values
+horrible: "Terribile",
+bad: "Basso",
+avg: "Medio",
+good: "Buono",
+fantastic: "Fantastico",
+perfect: "Perfetto",
+
+// additional infos
+caughtBy: "Catturato da",
+originalChannel: "Origine",
+caughtAtFormat: (day, month, year) => `${day}/${month}/${year}`,
+
+// selling
+sell: (amount) => `Sell $${amount}`,
+sellConfirmMessage: (name, lvl) => `Your <span class="font-weight-bold">${name} LVL. ${lvl}</span> will be gone forever.<br>Continue?`,
+trade: 'Trade',
+wondertrade: 'Wondertrade',
+tradeConfirmMessage: (name, lvl) => `Your <span class="font-weight-bold">${name} LVL. ${lvl}</span> will be gone forever.<br>Continue?`,
+sellSuccess: "You successfully sold your Pokémon",
+sellLast: "You can't sell your last Pokémon",
+sellNotExists: "This Pokémon does not exist anymore",
+sellNotYourPokemon: "This isn't your Pokémon anymore",
+sellPriceChanged: "The sale price of your pokemon changed. Please refresh the extension",
+
+tradeCooldown: (time) => `Cooldown: ${time}`,
+tradeCooldownIsActive: "You already wondertraded in the past 3 hours",
+
+// sort filter
+changeSort: "Cambia ordinamento",
+sortByID: "ID",
+sortByName: "Nome",
+sortByLevel: "Livello",
+sortByHP: "PV",
+sortByPrice: "Prezzo",
+sortByShiny: "Cromatico",
+sortByBaseStat: "Statistiche di base",
+sortByAvgIV: "IV",
+sortByRecent: "Recente",
+
+// error messages
+PokemonTeamFull: "Il tuo team è al completo",
+PokemonNotInTeam: "Questo Pokémon non fa parte della tua squadra",
+PokemonAlreadyInTeam: "Questo Pokémon è già nella tua squadra",
+PokemonNotOwnedAnymore: "Non possiedi più questo Pokémon",
+
+PokemonNicknameTooLong: "Il soprannome è troppo lungo",
+PokemonTeamNameTooLong: "Il nome della squadra è troppo lungo",
+
+caughtOn: "Catturato il"

@@ -1,0 +1,34 @@
+back: "Indietro",
+continue: "Continua",
+cancel: "Annulla",
+close: "Chiudi",
+success: "Completato",
+error: "Errore",
+okay: "Okay",
+value: "Valore",
+cancelled: "Annullato",
+
+// icons
+computer: "Computer",
+inventory: "Inventario",
+searchBattle: "Cerca battaglia",
+
+dailyReward: "Unisciti al nostro discord gratuitamente per ottenere premi giornalieri!",
+
+// user
+userIdNotShared: "Per favore garantisci l'accesso al tuo ID Twitch.",
+
+// default screens
+notStarted: "Scrivi !pokestart per iniziare la tua avventura!",
+notStartedDiscord: "Digita !pokestart per iniziare la tua avventura!<br>Se hai bisogno di ulteriore aiuto contattaci su discord <br>https://discord.gg/cT3ThCj",
+notWhitelisted: "Questo canale non è abilitato.",
+chooseChatBotLanguage: "Scegli la lingua del chatbot:",
+notWhitelistedDiscord: "Questo canale non è nella whitelist!<br>Se hai bisogno di ulteriore aiuto contattaci su discord <br>https://discord.gg/cT3ThCj",
+contactOnDiscord: "Contattaci sul nostro Discord per abilitare il tuo canale:",
+
+loading: "Caricamento...",
+loadingFailed: "Caricamento fallito. Per favore prova ancora.",
+unknownError: "Errore sconosciuto! Per favore segnalalo sul nostro Discord https://discord.gg/cT3ThCj \n\n",
+tokenExpired: "Il token di autenticazione Twitch è scaduto. Si prega di ricaricare il sito web o riavviare l'app",
+invalidToken: "<h5>Autenticazione fallita</h5> Assicurati che l'orologio del tuo sistema sia sincronizzato! <br> Altrimenti l'autenticazione fallirà!<br><br>Altre soluzioni:<br>1) Aggiornamento della pagina<br>2) Disabilitazione delle estensioni del browser<br>3) Revoca e concede nuovamente il permesso all'estensione<br>4) Accesso e uscita su twitch<br>5) Prova con un browser diverso<br><br>Per ulteriore aiuto unisciti al nostro discord <br> https://discord.gg/cT3ThCj",
+connectionFailed: "La connessione al server è fallita. Si prega di riprovare più tardi!"
