@@ -1,0 +1,17 @@
+    shop: "Tienda",
+    inventory: "Inventario",
+    purchase: "Compra",
+    amount: "Cantidad",
+
+    purchaseConfirmationMessage: (name, amount, total_price) => `¿Estás seguro de que quieres comprar <span class="font-weight-bold">${amount}</span>x <span class="font-weight-bold">${name}</span> por un total de <span class="font-weight-bold">$${total_price}</span>?`,
+    sellConfirmationMessage: (name, amount, total_price) => `¿Estás seguro de que quieres vender <span class="font-weight-bold">${amount}</span>x <span class="font-weight-bold">${name}</span> por un total de <span class="font-weight-bold">$${total_price}</span>?`,
+    howManyYouWantBuy: (name) => `¿Cuántos <span class="font-weight-bold">${name}</span> quieres comprar?`,
+
+    itemAmountLessThenZero: "¡Se necesita comprar al menos un artículo!",
+    itemDoesNotExist: "¡No existe ningún artículo con el nombre dado!",
+    notEnoughMoneyToBuy: "¡No tienes suficiente dinero!",
+    notEnoughBattleCoinsToBuy: "¡No tienes suficientes Monedas de Batalla!",
+    notEnoughEventCoinsToBuy: "¡No tienes suficientes Monedas de Evento!",
+    itemNotPurchasable: "¡Ese artículo no se puede comprar en la tienda!",
+
+    purchaseSuccessfully: "¡La compra se realizó con éxito!"

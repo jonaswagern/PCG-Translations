@@ -1,0 +1,71 @@
+    pokemonListHeadline: "Tus Pokémon",
+
+    // panel de información
+    info: "Info",
+    team: "Equipo",
+    stats: "Estadísticas",
+    moves: "Movimientos",
+    movesNotFound: "No se pudieron encontrar tus movimientos",
+    name: "Nombre",
+    hp: "PS",
+    attack: "Ataque",
+    specialAttack: "Ataque Esp.",
+    defense: "Defensa",
+    specialDefense: "Defensa Esp.",
+    speed: "Velocidad",
+    total: "Total",
+    progress: "Progreso",
+    weight: "Peso",
+    generation: "Generación",
+    base_stats: "Estadísticas base",
+
+    // valores de estadísticas
+    horrible: "Horrible",
+    bad: "Malo",
+    avg: "Promedio",
+    good: "Bueno",
+    fantastic: "Fantástico",
+    perfect: "Perfecto",
+
+    // informaciones adicionales
+    caughtBy: "Capturado por",
+    originalChannel: "Origen",
+    caughtAtFormat: (year, month, day) => `${day}/${month}/${year}`,
+
+    // venta
+    sell: (amount) => `Vender $${amount}`,
+    sellConfirmMessage: (name, lvl) => `Tu <span class="font-weight-bold">${name} NIV. ${lvl}</span> se perderá para siempre.<br>¿Continuar?`,
+    trade: 'Intercambio',
+    wondertrade: 'Intercambio maravilla',
+    tradeConfirmMessage: (name, lvl) => `Tu <span class="font-weight-bold">${name} NIV. ${lvl}</span> se perderá para siempre.<br>¿Continuar?`,
+    sellSuccess: "Has vendido tu Pokémon exitosamente",
+    sellLast: "No puedes vender tu último Pokémon",
+    sellNotExists: "Este Pokémon ya no existe",
+    sellNotYourPokemon: "Este ya no es tu Pokémon",
+    sellPriceChanged: "El precio de venta de tu Pokémon ha cambiado. Por favor, actualiza la extensión",
+
+    tradeCooldown: (time) => `Enfriamiento: ${time}`,
+    tradeCooldownIsActive: "Ya has realizado un intercambio maravilla en las últimas 3 horas",
+
+    // filtro de ordenación
+    changeSort: "Cambiar ordenación",
+    sortByID: "ID",
+    sortByName: "Nombre",
+    sortByLevel: "Nivel",
+    sortByHP: "PS",
+    sortByPrice: "Precio",
+    sortByShiny: "Brillante",
+    sortByBaseStat: "Estadísticas base",
+    sortByAvgIV: "IV",
+    sortByRecent: "Reciente",
+
+    // mensajes de error
+    PokemonTeamFull: "Tu equipo está lleno",
+    PokemonNotInTeam: "Este Pokémon no está en tu equipo",
+    PokemonAlreadyInTeam: "Este Pokémon ya está en tu equipo",
+    PokemonNotOwnedAnymore: "Ya no posees este Pokémon",
+
+    PokemonNicknameTooLong: "El apodo es demasiado largo",
+    PokemonTeamNameTooLong: "El nombre del equipo es demasiado largo",
+
+    caughtOn: "Capturado en"

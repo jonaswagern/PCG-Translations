@@ -1,0 +1,35 @@
+    back: "Atrás",
+    continue: "Continuar",
+    cancel: "Cancelar",
+    close: "Cerrar",
+    success: "Éxito",
+    error: "Error",
+    okay: "De acuerdo",
+    value: "Valor",
+    cancelled: "Cancelado",
+
+    // icons
+    computer: "Computadora",
+    inventory: "Inventario",
+    searchBattle: "Buscar batalla",
+
+    dailyReward: "¡Únete a nuestro discord de forma gratuita para obtener recompensas diarias!",
+
+    // user
+    userIdNotShared: "Por favor, concede acceso a tu ID de Twitch.",
+
+    // default screens
+    notStarted: "Ingresa !pokestart para comenzar tu aventura!",
+    notStartedDiscord: "Ingresa !pokestart para comenzar tu aventura!<br>Si necesitas más ayuda contáctanos en discord <br>https://discord.gg/cT3ThCj",
+    notWhitelisted: "Este canal no está en la lista blanca.",
+    chooseChatBotLanguage: "Por favor, elige el idioma del chatbot:",
+    notWhitelistedDiscord: "¡Este canal no está en la lista blanca!<br>Si necesitas más ayuda contáctanos en discord <br>https://discord.gg/cT3ThCj",
+    contactOnDiscord: "Únete a nuestro discord para usar nuestro sistema de lista blanca automatizado donde puedes seleccionar el idioma de tu preferencia:",
+
+    loading: "Cargando...",
+    loadingFailed: "Carga fallida. Por favor, intenta de nuevo.",
+    unknownError: "¡Ocurrió un error desconocido! Por favor, intenta refrescar la página web. <br>Si el problema persiste repórtalo en nuestro discord <br>https://discord.gg/cT3ThCj",
+    tokenExpired: "El token de autenticación de Twitch expiró. Por favor, recarga la página web o reinicia tu aplicación",
+    invalidToken: "<h5>Autenticación fallida</h5> ¡Por favor, asegúrate de que el reloj de tu sistema esté sincronizado! <br> De lo contrario, la autenticación fallará!<br><br>Más soluciones:<br>1) Refrescar la página<br>2) Deshabilitar extensiones del navegador<br>3) Revocar y conceder el permiso de la extensión<br>4) Cerrar sesión y volver a iniciar en twitch<br>5) Probar con otro navegador<br><br>Para más ayuda únete a nuestro discord <br> https://discord.gg/cT3ThCj",
+
+    connectionFailed: "La conexión con el servidor falló. ¡Por favor, intenta de nuevo más tarde!"

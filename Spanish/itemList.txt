@@ -1,0 +1,21 @@
+    yourItems: "Tus ítems",
+    useItem: "Usar",
+    useItemSuccess: "Ítem usado exitosamente",
+
+    itemNotExists: "Ya no posees este ítem",
+    itemAlreadyActive: "El efecto del ítem todavía está activo. Por favor, intenta nuevamente más tarde",
+    itemNoBuddy: "El entrenador no tiene compañero",
+    itemTeamListFull: "El máximo de equipos que puedes tener es 20",
+
+    PokemonFullHp: "Pokémon con vida completa",
+    PokemonDead: "El Pokémon necesita ser revivido",
+    PokemonStillAlive: "El Pokémon no necesita ser revivido",
+    PokemonNoStatusCondition: "Pokémon no afectado por ninguna condición de estado",
+    PokemonFullPP: "Todos los movimientos con PP completo",
+
+    sellConfirmMessage: (name) => `¿Estás seguro de que quieres vender tu <span class="font-weight-bold">${name}</span>?`,
+    useConfirmMessage: (item, pkm) => `¿Estás seguro de que quieres usar el ítem <span class="font-weight-bold">${item}</span> en <span class="font-weight-bold">${pkm}</span>?`,
+    sellSuccess: "Has vendido tu ítem exitosamente",
+
+    wonderPassNoCooldown: "¡Tu Pase de Maravilla no está en enfriamiento!",
+    pokedailyNoCooldown: "¡Tu Pokediario no está en enfriamiento!",
