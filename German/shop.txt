@@ -11,6 +11,7 @@
     itemDoesNotExist: "Dieses Item existiert nicht!",
     notEnoughMoneyToBuy: "Du hast nicht genügend Geld!",
     notEnoughBattleCoinsToBuy: "Du hast nicht genügend Battle Coins!",
+    notEnoughEventCoinsToBuy: "You don't have enough Event Coin(s)!",
     itemNotPurchasable: "Dieses item kann nicht gekauft werden!",
 
     purchaseSuccessfully: "Der Kauf war erfolgreich!"

@@ -5,9 +5,9 @@
     searchBattle: "Buscar Batalha",
     searchBattleRanked: "Rank",
     searchBattleCasual: "Casual",
-    searchTourneyBattle: (Enemy, round) => `Tourneio ${round} vs ${Enemy} `,
-    searchTourneyBattleNotReady: (round) => `Batalha do torneio não está pronta! (${round})`,
-    searchBattleNotEnoguh: "Você precisa de 6 Pokemon no seu time!",
+    searchTourneyBattle: (Enemy) => `Tourneio vs ${Enemy} `,
+    searchTourneyBattleNotReady: `Batalha do torneio não está pronta!`,
+    searchBattleNotEnoguh: "Precisas de 6 Pokémon na tua equipa para as batalhas públicas!",
 
     wantToBattlePrivate: "Enter the same password as your opponent to start a private battle.",
     wantToBattleRanked: "Você quer buscar uma batalha ranqueada?",
@@ -68,10 +68,12 @@
     battleBurnDamage: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> levou dano de queimadura.`,
     battlePokemonChanged: (LastPokemonName, CurrentPokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${LastPokemonName}</span> foi trocado por <span class="battle-log-pokemonname" style="color:#63ff78">${CurrentPokemonName}</span>.`,
 
-    battleDisallowSwitching: (trainerName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${trainerName}</span> can't switch out anymore.`,
-    battleAllowSwitching: (trainerName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${trainerName}</span> can switch out again.`,
-
-    battleEnemyEndMagnetRise: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> stopped levitating.`,
+    battleDisallowSwitching: (trainerName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${trainerName}</span> não pode mais trocar.`,
+    battleAllowSwitching: (trainerName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${trainerName}</span> pode trocar novamente.`,
+    battleEnemyStartMagnetRise: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> iniciado de levitar.`,
+    battleEnemyEndMagnetRise: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> parou de levitar.`,
+    battleEnemyStartTaunt: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> foi provocado.`,
+    battleEnemyEndTaunt: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> não está mais sob provocação.`,
 
     // field effects
     battleRainEnd: `Parou de chover`,

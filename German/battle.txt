@@ -1,12 +1,12 @@
-    changePokemonButton: "Pokémon wechseln",
+changePokemonButton: "Pokémon wechseln",
     surrenderButton: "Aufgeben",
     wantToSurrender: "Willst du wirklich aufgeben? (Wenn du zu oft aufgibst kann dies zu einer Sperre führen!)",
     wantToSurrenderPrivate: "Willst du wirklich aufgeben?",
     searchBattle: "Kampf suchen",
     searchBattleRanked: "Ranked",
     searchBattleCasual: "Casual",
-    searchTourneyBattle: (Enemy, round) => `Tunier Battle gegen ${Enemy} (${round})`,
-    searchTourneyBattleNotReady: (round) => `Tourney Battle ist nicht bereit! (${round})`,
+    searchTourneyBattle: (Enemy) => `Tunier Battle gegen ${Enemy}`,
+    searchTourneyBattleNotReady: `Tourney Battle ist nicht bereit!`,
     searchBattleNotEnoguh: "Du benötigst 6 Pokémon in deinem Team!",
 
     wantToBattlePrivate: "Enter the same password as your opponent to start a private battle.",
@@ -68,8 +68,14 @@
     battleBurnDamage: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> erleidet Schaden durch die Verbrennung.`,
     battlePokemonChanged: (LastPokemonName, CurrentPokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${LastPokemonName}</span> wurde mit <span class="battle-log-pokemonname" style="color:#63ff78">${CurrentPokemonName}</span> ausgewechselt.`,
 
-    battleDisallowSwitching: (trainerName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${trainerName}</span> can't switch out anymore.`,
-    battleAllowSwitching: (trainerName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${trainerName}</span> can switch out again.`,
+    battleDisallowSwitching: (trainerName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${trainerName}</span> kann nicht mehr fliehen.`,
+    battleAllowSwitching: (trainerName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${trainerName}</span> kann wieder ausgewechselt werden.`,
+
+    battleEnemyStartMagnetRise: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> beginnt zu schweben.`,
+    battleEnemyEndMagnetRise: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> hört auf zu schweben.`,
+
+    battleEnemyStartTaunt: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> fällt auf den Verhöhner herein.`,
+    battleEnemyEndTaunt: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> wird nicht mehr verhöhnt.`,
 
     // field effects
     battleRainEnd: `Der Regen lässt nach.`,

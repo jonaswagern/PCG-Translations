@@ -1,16 +1,17 @@
-    shop: "Shop",
-    inventory: "Inventory",
-    purchase: "Purchase",
-    amount: "Amount",
+    shop: "Loja",
+    inventory: "Inventário",
+    purchase: "Compra",
+    amount: "Valor",
 
-    purchaseConfirmationMessage: (name, amount, total_price) => `Are you sure that you want to buy <span class="font-weight-bold">${amount}</span>x <span class="font-weight-bold">${name}</span> for a total of <span class="font-weight-bold">$${total_price}</span>?`,
+    purchaseConfirmationMessage: (name, amount, total_price) => `Você tem certeza de que quer comprar <span class="font-weight-bold">${amount}</span>x <span class="font-weight-bold">${name}</span> por um total de <span class="font-weight-bold">$${total_price}</span>?`,
     sellConfirmationMessage: (name, amount, total_price) => `Are you sure that you want to sell <span class="font-weight-bold">${amount}</span>x <span class="font-weight-bold">${name}</span> for a total of <span class="font-weight-bold">$${total_price}</span>?`,
-    howManyYouWantBuy: (name) => `How many <span class="font-weight-bold">${name}</span>'s do you want to buy?`,
+    howManyYouWantBuy: (name) => `Quantos <span class="font-weight-bold">${name}</span> você quer comprar?`,
 
-    itemAmountLessThenZero: "At least one item needs to be bought!",
-    itemDoesNotExist: "No item with the given name exists!",
-    notEnoughMoneyToBuy: "You don't have enough money!",
+    itemAmountLessThenZero: "Pelo menos um item necessita ser comprado!",
+    itemDoesNotExist: "Nenhum item com esse nome exite!",
+    notEnoughMoneyToBuy: "Você não tem dinheiro suficiente!",
     notEnoughBattleCoinsToBuy: "You don't have enough Battle Coin(s)!",
-    itemNotPurchasable: "That item cannot be bought from the shop!",
+    notEnoughEventCoinsToBuy: "You don't have enough Event Coin(s)!",
+    itemNotPurchasable: "Esse item não pode ser comprado na loja!",
 
-    purchaseSuccessfully: "The purchase was made successfully!"
+    purchaseSuccessfully: "Sua compra foi realizada com sucesso!"
