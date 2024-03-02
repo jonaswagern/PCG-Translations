@@ -5,9 +5,9 @@
     searchBattle: "Search Battle",
     searchBattleRanked: "Ranked",
     searchBattleCasual: "Casual",
-    searchTourneyBattle: (Enemy, round) => `Tourney ${round} vs ${Enemy} `,
-    searchTourneyBattleNotReady: (round) => `Tourney Battle not ready! (${round})`,
-    searchBattleNotEnoguh: "You need 6 Pokémon in your team!",
+    searchTourneyBattle: (Enemy) => `Tourney vs ${Enemy}`,
+    searchTourneyBattleNotReady: `Tourney Battle not ready!`,
+    searchBattleNotEnoguh:  "You need 6 Pokémon in your team for public battles!",
 
     wantToBattlePrivate: "Enter the same password as your opponent to start a private battle.",
     wantToBattleRanked: "Do you want to start a ranked battle?",
@@ -71,7 +71,11 @@
     battleDisallowSwitching: (trainerName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${trainerName}</span> can't switch out anymore.`,
     battleAllowSwitching: (trainerName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${trainerName}</span> can switch out again.`,
 
+    battleEnemyStartMagnetRise: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> started levitating.`,
+    battleEnemyEndMagnetRise: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> stopped levitating.`,
 
+    battleEnemyStartTaunt: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> was taunted.`,
+    battleEnemyEndTaunt: (pokemonName) => `<span class="battle-log-pokemonname" style="color:#63ff78">${pokemonName}</span> is no longer taunted.`,
     // field effects
     battleRainEnd: `It stopped raining`,
     battleRainStarted: `It started raining`,
@@ -110,4 +114,3 @@
     enterSpectateKey: "Spectate key:",
 
     tooManyConcurrentBattles: "There are to many ongoing battles! Please try again in 5 minutes!"
-};
