@@ -1,7 +1,0 @@
-attack: "attack",
-specialAttack: "specialattack",
-defense: "försvar",
-specialDefense: "specialförsvar",
-speed: "hastighet",
-accuracy: "pricksäkerhet",
-evasion: "undvikande"
